@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>yolov8_ros</name>
+  <version>0.0.0</version>
+  <description>The yolov8_ros package</description>
+
+  <maintainer email="nakatogawa.drone@gmail.com">GAI-313</maintainer>
+
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>catkin</depend>
+  <!-- need depends -->
+  <depend>yolov8_ros_msgs</depend>
+  <depend>usb_cam</depend>
+
+  <export>
+  </export>
+</package>
