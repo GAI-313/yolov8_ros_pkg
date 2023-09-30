@@ -25,13 +25,14 @@ build package
 catkin build
 ```
 
-## detect.py
- This is yolov8_ros main scripts.
-
-
 ### rosrun
 ```
-rosrun yolov8_ros detect.py image:=<TOPIC>
+rosrun yolov8_ros detect.py image_topic:=<IMAGE_TOPIC> camera_info:=<CAMERA_INFO_TOPIC>
+```
+
+### launch
+```
+rosluanch yolov8_ros detect.launch camera_path:=<CAMERA_PATH> image_topic:=<IMAGE_TOPIC> caminfo_topic:=<CAMERA_INFO_TOPIC>
 ```
 ### Topic
 - **Subscribe**<br>
